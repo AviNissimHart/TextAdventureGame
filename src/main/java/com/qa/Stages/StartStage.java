@@ -71,8 +71,10 @@ public class StartStage {
 			break;
 		}
 		
-		System.out.println("You have followed this path, only to find a junction with different signs");
-		
+		System.out.println("You have followed this path, only to find the evil MoJoJoJo standing in your way");
+		System.out.println("In order to defeat me, you must summon the powerpuff girls");
+		System.out.println("You must choose 4 ingredients from this list which makes them");
+		finalBattle();
 		
 	}
 
@@ -172,6 +174,10 @@ public class StartStage {
 			System.out.println("You answered poorly! You lose. You are now my calculator for all eternity");
 			gameOver();
 		}
+	}
+	
+	public void finalBattle() {
+		System.out.println("|Chocolate	|Sugar	|Spice	|Everything Nice	|Flour	|Vanilla Essence");
 	}
 	
 	public void gameOver() {
