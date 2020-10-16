@@ -1,5 +1,10 @@
 package com.qa.Stages;
 
-public class SecondStage {
+import java.util.Scanner;
 
+public class SecondStage extends StartStage {
+	
+	
+	
+	
 }
